@@ -6,7 +6,12 @@ namespace DigitalInnovationOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int numerodevezes = 9;
+
+            for (int i=0; i < numerodevezes; i++)
+            {
+                Console.WriteLine($"Bem vindo ao curso de .Net {i}");
+            }
         }
     }
 }
